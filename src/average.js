@@ -12,12 +12,20 @@
 */
 
 const average = (array) => {
+  if (array.length === 0) {
+    return undefined;
+  }
   let arraySum = 0;
   for (let index = 0;index < array.length; index += 1) {
+    if (typeof array[index] !== 'number') {
+      return undefined;
+    }
     arraySum += array[index];
   }
-  const media = arraySum / array.length;
+  const media = Math.round(arraySum / array.length);
   return media;
 };
+
+average([])
 
 module.exports = average;
