@@ -22,8 +22,7 @@ const average = (array) => {
     }
     arraySum += array[index];
   }
-  const media = Math.round(arraySum / array.length);
-  return media;
+  return media = Math.round(arraySum / array.length);
 };
 
 average([])
