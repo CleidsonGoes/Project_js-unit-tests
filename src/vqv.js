@@ -18,8 +18,8 @@
   Caso a função seja chamada sem nenhum parâmetro, o valor undefined deve ser retornado.
 */
 
-const vqv = (nome, num) => {
-  if (nome || num) {
+const vqv = (nome, numero) => {
+  if (nome || numero) {
   return `Oi, meu nome é ${nome}!\nTenho ${num} anos,\n
   trabalho na Trybe e mando muito em programação!\n#VQV!`;
   }
