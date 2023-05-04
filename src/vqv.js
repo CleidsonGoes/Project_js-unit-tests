@@ -20,10 +20,10 @@
 
 const vqv = (nome, num) => {
   if (nome || num) {
-  return `Oi, meu nome é ${nome}!\nTenho ${num} anos,\ntrabalho na Trybe e mando muito em programação!\n#VQV!`
-  };
+  return `Oi, meu nome é ${nome}!\nTenho ${num} anos,\n
+  trabalho na Trybe e mando muito em programação!\n#VQV!`;
+  }
   return undefined;
-  
 };
 
 module.exports = vqv;
