@@ -19,9 +19,12 @@
 */
 
 const vqv = (nome, numero) => {
+  const part1 = 'Oi, meu nome é ';
+  const part2 = '\nTenho ';
+  const part3 = ' anos,\ntrabalho na Trybe e mando muito em programação!';
+  const part4 = '\n#VQV!';
   if (nome || numero) {
-  return `Oi, meu nome é ${nome}!\nTenho ${num} anos,\n
-  trabalho na Trybe e mando muito em programação!\n#VQV!`;
+    return `${part1}${nome}!${part2}${numero}${part3}${part4}`;
   }
   return undefined;
 };
