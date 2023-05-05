@@ -40,7 +40,7 @@ const calculator = (number1, number2) => {
     mult: number1 * number2,
     div: Math.floor(number1 / number2),
     sub: number1 - number2,
-  }
+  };
   return numInt;
 };
 
@@ -50,9 +50,7 @@ const arrayGenerator = (type, object) => {
     return Object.keys(objeto);
   } else if (type === 'values') {
     return Object.values(objeto);
-  } else {
-    return Object.entries(objeto);
-  }
+  } return Object.entries(objeto);
 };
 
 module.exports = { calculator, arrayGenerator };
