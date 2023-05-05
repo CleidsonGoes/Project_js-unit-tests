@@ -48,7 +48,7 @@ const arrayGenerator = (type, object) => {
   const objeto = object;
   if (type === 'keys') {
     return Object.keys(objeto);
-  } else if (type === 'values') {
+  } if (type === 'values') {
     return Object.values(objeto);
   } return Object.entries(objeto);
 };
